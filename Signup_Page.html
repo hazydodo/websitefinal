@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header><h3>evil goals inc.<h3></header>
+    <div class = "maincontent">
+        <h1>Sign up</h1>
+        <div class = "right">
+            <label for="uname"><b>Username:</b></label><br>
+            <input type="text" placeholder="Your Username" name="uname" required><br>
+            <label for="mail"><b>E-mail:</b></label><br>
+            <input type="text" placeholder="Your e-mail" name="mail" required><br>
+            <label for="psw"><b>Password:</b></label><br>
+            <input type="text" placeholder="Password" name="psw" required><br>
+            <label for="pswconfirm"><b>Confirm Password:</b></label><br>
+            <input type="text" placeholder="Confirm Password" name="pswconfirm" required><br>
+            <b>Sex:</b><br>
+            <input type="radio" id="male" name="sex" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="sex" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="sex" value="Other">
+            <label for="other">Other</label>
+        </div>
+        <div align = "left">
+            <label for="fullname"><b>Full Name:</b></label><br>
+            <input type="text" placeholder="Your Full Name" name="fullname" required><br>
+            <label for="mail"><b>Country:</b></label><br>
+            <input type="text" placeholder="Your e-mail" name="mail" required><br>
+            <label for="adr"><b>Adress:</b></label><br>
+            <input type="text" placeholder="Your Adress" name="adr" required><br>
+            <label for="zip"><b>ZIP code:</b></label><br>
+            <input type="text" placeholder="Your ZIP" name="zip" required><br> 
+            <label for="lang"><b>Language: </b></label><br>
+            <input type="text" placeholder="Your language" name="lang" required><br> 
+        </div>
+        <label for="bio"><b>Bio: </b></label><br>
+        <textarea rows="6" cols="59" name="bio" placeholder="Your bio"></textarea>
+        <div>
+            <br>
+            <button type="button" class="cancelbutton" onclick="window.location.href = 'Login_Page.html'">Cancel</button>
+            <button type="submit" class="signupbutton" onclick="window.location.href = 'Main_Page.html'">Sign Up</button>
+        </div>
+    </div>
+
+
+    <footer><p>Helping villains set up their evil goals since 1968</p></footer>
+</body>
+</html>
